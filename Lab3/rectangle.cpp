@@ -7,13 +7,15 @@ rectangle::rectangle(int l, int w) {
 }
 
 //calculate area function 
+//calculate area function 
 int rectangle::calculateArea() {
-		return 0; //temporary, change this return 
+	int area = length * width;
+	return area;
 }
 
 //print the shape (format = Rectangle: The length = 6 , the width = 2 and the area = 12)
 void rectangle::printRectangle() {
-	std::cout << length << " " << width; //this is temporary for testing
+	std::cout << "Rectangle: The length = " << length << ", width = " << width << " and the area = " << calculateArea();
 }
 
 //results in a Rectangle with the length and the width scaled by 2
