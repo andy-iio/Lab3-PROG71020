@@ -7,4 +7,5 @@ public:
 	//constructor for square
 	square(int length);
 	void printSquare();
+	int AreaSquare();
 };
