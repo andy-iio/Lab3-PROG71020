@@ -6,32 +6,24 @@ rectangle::rectangle(int l, int w) {
 	width = w;
 }
 
-	//calculate area function 
-	int rectangle::calculateArea() {
-
+//calculate area function 
+int rectangle::calculateArea() {
 		return 0; //temporary, change this return 
-	}
+}
 
-	//print the shape (format = Rectangle: The length = 6 , the width = 2 and the area = 12)
-	void rectangle::printRectangle() {
-		std::cout << "hello";
-	}
+//print the shape (format = Rectangle: The length = 6 , the width = 2 and the area = 12)
+void rectangle::printRectangle() {
+	std::cout << length << " " << width; //this is temporary for testing
+}
 
-	//results in a Rectangle with a length equal to the summation of both lengths
-	//and width equal to the summation of both widths
-	//rectangle rectangle::sumSides() {
+//results in a Rectangle with the length and the width scaled by 2
+rectangle rectangle::scaleSides() {
+	int newlength = length * 2;
+	int newWidth = width * 2;
+	return rectangle(newlength, newWidth);
+}
 
-
-	//}
-
-	//results in a Rectangle with the length and the width scaled by 2
-	
-	//rectangle rectangle::scaleSides() {
-		
-		
-	//}
-
-
-	void square::printSquare() {
-
-	}
+//sum the lengths and widths of two rectangles and return a new rectangle
+rectangle sumSides(rectangle r1, rectangle r2) {
+	return rectangle((r1.length + r2.length), (r1.width + r2.width));
+}

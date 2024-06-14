@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\andyg\\source\\repos\\Lab3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\rectangle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\square.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\square.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{402B3F5C-145E-4F95-8D93-C9D086DC62EE}|Lab3\\Lab3.vcxproj|solutionrelative:Lab3\\rectangle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "square.h",
+              "DocumentMoniker": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\square.h",
+              "RelativeDocumentMoniker": "Lab3\\square.h",
+              "ToolTip": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\square.h",
+              "RelativeToolTip": "Lab3\\square.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T21:29:06.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "square.cpp",
+              "DocumentMoniker": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\square.cpp",
+              "RelativeDocumentMoniker": "Lab3\\square.cpp",
+              "ToolTip": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\square.cpp",
+              "RelativeToolTip": "Lab3\\square.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T21:28:55.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "rectangle.h",
               "DocumentMoniker": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.h",
               "RelativeDocumentMoniker": "Lab3\\rectangle.h",
               "ToolTip": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.h",
               "RelativeToolTip": "Lab3\\rectangle.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-12T12:57:14.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "rectangle.cpp",
               "DocumentMoniker": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.cpp",
               "RelativeDocumentMoniker": "Lab3\\rectangle.cpp",
               "ToolTip": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\rectangle.cpp",
               "RelativeToolTip": "Lab3\\rectangle.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-12T12:41:46.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\main.cpp",
               "RelativeDocumentMoniker": "Lab3\\main.cpp",
               "ToolTip": "C:\\Users\\andyg\\source\\repos\\Lab3\\Lab3\\main.cpp",
               "RelativeToolTip": "Lab3\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-12T12:25:31.553Z",
               "EditorCaption": ""

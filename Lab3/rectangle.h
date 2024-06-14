@@ -1,28 +1,16 @@
 #include <iostream>
-
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
 class rectangle {
-protected: //only subclasses can access
+public:
 	int length;
 	int width;
-
-public:
-	//contructor
-	rectangle(int l, int w);
-
-	//calculate area function 
-	int calculateArea();
-	//print the shape (format = Rectangle: The length = 6 , the width = 2 and the area = 12)
-	void printRectangle();
-	//results in a Rectangle with a length equal to the summation of both lengths
-	//and width equal to the summation of both widths
-	rectangle sumSides();
-	//results in a Rectangle with the length and the width scaled by 2
-	rectangle scaleSides();
-
-
+	rectangle(int l, int w);//contructor 
+	int calculateArea();//calculate area function
+	void printRectangle();//print the shape (format = Rectangle: The length = 6 , the width = 2 and the area = 12)
+	rectangle scaleSides();//results in a Rectangle with the length and the width scaled by 2
 };
 
-class square : public rectangle {
+rectangle sumSides(rectangle r1, rectangle r2); //sum the lengths and widths of two rectangles and return a new rectangle
 
-	void printSquare();
-};
+#endif
