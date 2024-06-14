@@ -5,10 +5,5 @@ square::square(int length) : rectangle(length, length) {
 }
 
 void square::printSquare() {
-	std::cout << "Square: The side = " << length << " and the area = " << AreaSquare();
-}
-
-int square::AreaSquare() {
-	int s_area = length * length;
-	return s_area;
+	std::cout << "Square: The side = " << length << " and the area = " << calculateArea();
 }
